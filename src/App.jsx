@@ -5,7 +5,7 @@ export default function Portfolio() {
   const [input, setInput] = useState('');
   const [history, setHistory] = useState([
     { type: 'system', content: '╔════════════════════════════════════════════════════════════════════╗' },
-    { type: 'system', content: '║        Welcome to Ayman Pathan\'s AI-Powered Portfolio             ║' },
+    { type: 'system', content: '║        Welcome to Ayman Pathan\'s AI-Powered Portfolio              ║' },
     { type: 'system', content: '╚════════════════════════════════════════════════════════════════════╝' },
     { type: 'output', content: '' },
     { type: 'output', content: '👋 Hi! I\'m Ayman - AI/SWE Engineer Looking for Summer 2026 Co-op' },
